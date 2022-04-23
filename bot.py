@@ -48,7 +48,7 @@ import asyncio
 	        await bot.sendMessage(chat_id, 'Something went wrong...')
 
 	# Program startup
-	TOKEN = '1811863530:AAFFYY_EqvKapAYf93HiO2j3qD-pGKNHgLg'
+	TOKEN = 1811863530:AAFFYY_EqvKapAYf93HiO2j3qD-pGKNHgLg
 	bot = telepot.aio.Bot(TOKEN)
 	loop = asyncio.get_event_loop()
 	loop.create_task(MessageLoop(bot, handle).run_forever())
